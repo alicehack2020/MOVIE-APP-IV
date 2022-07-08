@@ -1,0 +1,19 @@
+#input_form{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+#input_form>input{
+    height: 2rem;
+    margin-top: 0.5rem;
+    width: 20rem;
+    font-size: larger;
+}
+button{
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 10rem;
+    font-size: larger;
+}
+

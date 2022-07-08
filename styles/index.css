@@ -1,0 +1,27 @@
+#navbar{
+    display: flex;
+    text-decoration: none;
+    justify-content: end;
+    border: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: large;
+    color: black;
+}
+
+#slideshow{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+#movies{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.poster_images{
+    width: 300px;
+}
